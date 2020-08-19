@@ -1,0 +1,15 @@
+Tasks performed
+Installed maven and set the JAVA_HOME and MAVEN_HOME path variables
+Checked installation completion using command line argument
+    "mvn -version"
+Created a maven project using command line
+    "mvn archetype:generate -DgroupId=com.wipro.topgear -DartifactId=basicMaven -DarchetypeArtifactId=maven-archetype-quickstart
+        -DarchetypeVersion=1.4 -DinteractiveMode=false"
+changed to directory
+    "cd basicMaven"
+Built the project
+    "mvn package"
+Test the main class from command line
+    "java -cp target/basicMaven-1.0-SNAPSHOT.jar com.wipro.topgear.App"
+Test the test class from command line
+    "java -cp target/basicMaven-1.0-SNAPSHOT.jar com.wipro.topgear.AppTest"
